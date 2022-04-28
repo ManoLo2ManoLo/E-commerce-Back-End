@@ -11,13 +11,13 @@ Link to Video: https://watch.screencastify.com/v/97IBq8vpmfRbBWmo82xe
 
 ## Description
 This application is for a store to keep track of their interventory. They are able to view, add, or delete products, categories, with an application called Insomia. If you view categories, you will see a list of all the categories with the products that belongs to that product. If you view products, you can see the products with their price, stock, catefory they belong to, and list of tags that belongs to it. If you view tags, you will see the tags, with a list of products that belongs to the tag. You are also able to add a category name in a json in the text, with just the category name looking like:
-
+```
 {
     "category_name": "Shirts"
 }
-
+```
 You are able to add a product name the same way with the product name, price, stock, tag id (optional), and category id (optional) looking like:
-
+```
 {
     "product_name": "Plain T-shirt",
     "price": 14.99,
@@ -25,13 +25,13 @@ You are able to add a product name the same way with the product name, price, st
     "category_id": 1,
     "tagIds": [6, 7, 8]
 }
-
+```
 You are able to add a tag by just adding the tag name looking like: 
-
+```
 {
     tag_name: "rock music"
 }
-
+```
 The user will also be able to update a product, category, or tag with their table, id and a json text similar to the what is above with the updated information. Similarly with the link to the table and id, you are able to delete things idividually.
 
 ## Screenshots
