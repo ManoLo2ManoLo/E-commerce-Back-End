@@ -13,7 +13,7 @@ Link to Video: https://watch.screencastify.com/v/97IBq8vpmfRbBWmo82xe
 * [License](#license)
 
 ## Description
-This application is for a store to keep track of their interventory. They are able to view, add, or delete products, categories, with an application called Insomia. If you view categories, you will see a list of all the categories with the products that belongs to that product. If you view products, you can see the products with their price, stock, catefory they belong to, and list of tags that belongs to it. If you view tags, you will see the tags, with a list of products that belongs to the tag. You are also able to add a category name in a json in the text, with just the category name looking like:
+This application is for a store to keep track of their inventory. They are able to view, add, or delete products, categories, with an application called Insomia. If you view categories, you will see a list of all the categories with the products that belongs to that product. If you view products, you can see the products with their price, stock, catefory they belong to, and list of tags that belongs to it. If you view tags, you will see the tags, with a list of products that belongs to the tag. You are also able to add a category name in a json in the text, with just the category name looking like:
 ```
 {
     "category_name": "Shirts"
@@ -41,12 +41,12 @@ The user will also be able to update a product, category, or tag with their tabl
 * git clone https://github.com/ManoLo2ManoLo/E-commerce-Back-End.git
 
 ## Install Dependencies
-* All NPM packages required for this application (bcrypt, connect-session-sequelize, dotenv, express, express-handlebars, express-session, mysql2, sequelize) are already listed as dependencies in the package.json file. Run the
+* All NPM packages required for this application are already listed as dependencies in the package.json file. Run the
 command 'npm i' command in your terminal at the root directory level to install the packages.
 * Ensure you have Node.js installed on your machine. The budget tracker application will be invoked by entering node server.js in the command line.
 
 ## Start Application
-* You will see the App running on port 3001! in the console. You can then view the app on http://localhost:3001/.
+* You will see the App running on the Terminal.
 
 ## Screenshots
 List of Categories: <br />
